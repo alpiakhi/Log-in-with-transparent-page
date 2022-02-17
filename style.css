@@ -1,0 +1,51 @@
+*
+{
+   box-sizing: border-box; 
+}
+body
+{
+    background-image: url(201-2014432_red-rose-blur-nature-background-hd-wallpaper-background.jpg);
+    background-position:top;
+    background-repeat:no-repeat;
+}
+.log-in
+{
+    height: 350px;
+    width: 350px;
+    background:transparent;
+    float: left;
+    margin-top: 140px;
+    margin-left: 480px;
+}
+.input-log
+{
+    height: 40px;
+    width: 80%;
+    transition: 3s;
+    margin-top: 8px;
+    background: transparent;
+    border-left: transparent;
+    border-top: transparent;
+    border-right: transparent;
+}
+.input-log:focus
+{
+    width: 100%;
+    border-right: 10px solid white;
+}
+.btn
+{
+    height: 40px;
+    width: 80%;
+    margin-top: 10px;
+    background-color:dodgerblue;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+::placeholder
+{
+    color: white
+}
